@@ -54,7 +54,6 @@ chroma-hnswlib==0.7.3
 chromadb==0.4.22
 click==8.1.7
 cloudpickle==2.2.1
-clyent==1.2.2
 colorama==0.4.6
 colorcet==3.0.1
 coloredlogs==15.0.1
