@@ -444,7 +444,6 @@ tornado
 tqdm
 traitlets
 transformers
-truststore
 Twisted
 typer
 typing_extensions
