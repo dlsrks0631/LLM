@@ -218,7 +218,6 @@ matplotlib-inline
 mccabe
 mdit-py-plugins
 mdurl
-menuinst
 mistune
 mmh3
 monotonic
