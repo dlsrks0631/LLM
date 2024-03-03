@@ -1,10 +1,16 @@
-streamlit
-python-dotenv
-langchain
-langchain_community
-langchain_openai
-Pillow
-pypdf
+streamlit==0.82.0
+python-dotenv==0.19.0
+langchain==0.1.0
+langchain-community==0.1.0
+langchain-openai==0.1.0
+Pillow==9.0.0
+
+# 추가적인 의존성
+transformers==4.13.3  # HuggingFaceEmbeddings가 transformers 라이브러리에 의존합니다.
+pdfminer.six==20201018  # PyPDFLoader가 PDF를 처리하기 위해 사용합니다.
+numpy==1.21.2  # Chroma가 numpy를 사용합니다.
+torch==1.10.2  # Chroma가 PyTorch에 의존합니다.
+
 # aiobotocore==2.7.0
 # aiofiles==22.1.0
 # aiohttp==3.9.0
