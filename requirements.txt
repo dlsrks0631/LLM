@@ -468,9 +468,3 @@ webencodings
 websocket-client
 websockets
 Werkzeug
-whatthepatch
-wheel
-widgetsnbextension
-wrapt
-wsproto
-wurlitzer
