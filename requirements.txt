@@ -58,17 +58,6 @@ colorama==0.4.6
 colorcet==3.0.1
 coloredlogs==15.0.1
 comm==0.1.2
-conda==23.11.0
-conda-build==3.28.2
-conda-content-trust==0.2.0
-conda_index==0.3.0
-conda-libmamba-solver==23.12.0
-conda-pack==0.6.0
-conda-package-handling==2.2.0
-conda_package_streaming==0.9.0
-conda-repo-cli==1.0.75
-conda-token==0.4.0
-conda-verify==3.4.2
 constantly==23.10.4
 contourpy==1.2.0
 cookiecutter==2.5.0
