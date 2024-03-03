@@ -1,24 +1,16 @@
 import streamlit as st
 from dotenv import load_dotenv
-import pickle
-from PyPDF2 import PdfReader
-from streamlit_extras.add_vertical_space import add_vertical_space
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import FAISS
-from langchain.llms import OpenAI
-from langchain.chains.question_answering import load_qa_chain
-from langchain.callbacks import get_openai_callback
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import Chroma
+
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain_community.document_loaders import PyPDFLoader
 
 #######
 from langchain.chains import RetrievalQA
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.prompts import PromptTemplate
-from langchain.document_loaders import PyPDFLoader
-from langchain.prompts import ChatPromptTemplate
 from PIL import Image
 
 import os
