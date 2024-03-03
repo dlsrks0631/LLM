@@ -229,7 +229,6 @@ multipledispatch
 multiprocess
 munkres
 mypy-extensions
-navigator-updater
 nbclassic
 nbclient
 nbconvert
@@ -306,7 +305,6 @@ pycosat
 pycparser
 pycryptodome
 pyct
-pycurl
 pydantic
 pydeck
 PyDispatcher
@@ -320,10 +318,6 @@ pylint-venv
 pyls-spyder
 pymdown-extensions
 Pympler
-pyobjc-core
-pyobjc-framework-Cocoa
-pyobjc-framework-CoreServices
-pyobjc-framework-FSEvents
 pyodbc
 pyOpenSSL
 pyowm
