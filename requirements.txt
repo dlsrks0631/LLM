@@ -217,7 +217,6 @@ matplotlib-inline==0.1.6
 mccabe==0.7.0
 mdit-py-plugins==0.3.0
 mdurl==0.1.0
-menuinst==2.0.1
 mistune==2.0.4
 mmh3==4.1.0
 monotonic==1.6
