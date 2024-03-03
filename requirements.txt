@@ -344,8 +344,6 @@ rope==1.7.0
 rpds-py==0.10.6
 rsa==4.9
 Rtree==1.0.1
-ruamel.yaml==0.17.21
-ruamel-yaml-conda==0.17.21
 s3fs==2023.10.0
 safetensors==0.4.0
 scikit-image==0.20.0
