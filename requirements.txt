@@ -373,8 +373,6 @@ rope
 rpds-py
 rsa
 Rtree
-ruamel.yaml
-ruamel-yaml-conda
 s3fs
 safetensors
 scikit-image
