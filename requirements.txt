@@ -201,8 +201,6 @@ langsmith
 lazy_loader
 lazy-object-proxy
 Levenshtein
-libarchive-c
-libmambapy
 linkify-it-py
 llama-index
 llvmlite
