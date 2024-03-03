@@ -474,15 +474,3 @@ widgetsnbextension
 wrapt
 wsproto
 wurlitzer
-xarray
-xlwings
-xxhash
-xyzservices
-y-py
-yapf
-yarl
-ypy-websocket
-zict
-zipp
-zope.interface
-zstandard
