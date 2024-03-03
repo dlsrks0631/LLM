@@ -15,6 +15,10 @@ from PIL import Image
 
 import os
  
+
+
+os.environ["OPENAI_API_KEY"] = "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"
+
 # Sidebar contents
 
 import streamlit as st
@@ -52,9 +56,6 @@ with st.sidebar:
             </div>'
 
     st.markdown(title, unsafe_allow_html=True)
-
- 
-load_dotenv()
 
 
 def main():
