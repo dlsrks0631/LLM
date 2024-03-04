@@ -3,7 +3,7 @@ python-dotenv
 langchain
 langchain-community
 Pillow
-langchain_opeai
+langchain_openai
 
 
 
