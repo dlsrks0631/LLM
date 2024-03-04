@@ -6,7 +6,7 @@ Pillow
 langchain_openai
 pypdf
 sentence-transformers
-
+chromadb
 # aiobotocore
 # aiofiles
 # aiohttp
