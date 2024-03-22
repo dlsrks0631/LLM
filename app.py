@@ -1,26 +1,21 @@
 import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_community.document_loaders import PyPDFLoader
-
-#######
 from langchain.chains import RetrievalQA
 from langchain_openai import ChatOpenAI
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.prompts import PromptTemplate
 from PIL import Image
-
 import os
  
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"
 
 # Sidebar contents
 
-import streamlit as st
 
 st.markdown("""
 <style>
